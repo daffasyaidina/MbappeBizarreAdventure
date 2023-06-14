@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F1D9116B-6650-2700-3D5E-C352EB9A5272}</ProjectGuid>
+    <ProjectGuid>{45F632B6-A0D7-8B70-506D-A365E184689A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,28 +56,29 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\DeathHandler.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\BackToMenu.cs" />
     <Compile Include="Assets\Scripts\StickToPlatform.cs" />
+    <Compile Include="Assets\Scripts\Trampoline.cs" />
     <Compile Include="Assets\Scripts\ItemCollector.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\waypointFollower.cs" />
     <Compile Include="Assets\Scripts\EndMenu.cs" />
     <Compile Include="Assets\FantomMusic\Demo\Scripts\SimpleMusicPlayer.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\handleUnpause.cs" />
+    <Compile Include="Assets\Scripts\fallingPlatform.cs" />
+    <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\StartMenu.cs" />
     <Compile Include="Assets\Scripts\Finish.cs" />
-    <Compile Include="Assets\Scripts\Quit.cs" />
-    <Compile Include="Assets\Scripts\fallingPlatform.cs" />
-    <Compile Include="Assets\Scripts\Trampoline.cs" />
-    <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\handlePause.cs" />
-    <Compile Include="Assets\Scripts\handleUnpause.cs" />
-    <Compile Include="Assets\Scripts\BackToMenu.cs" />
+    <Compile Include="Assets\Scripts\Quit.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\Chara\license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
