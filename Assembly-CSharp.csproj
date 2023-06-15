@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\DeathHandler.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\BackToMenu.cs" />
+    <Compile Include="Assets\Scripts\handleUnpause.cs" />
     <Compile Include="Assets\Scripts\StickToPlatform.cs" />
     <Compile Include="Assets\Scripts\Trampoline.cs" />
     <Compile Include="Assets\Scripts\ItemCollector.cs" />
@@ -68,14 +69,13 @@
     <Compile Include="Assets\Scripts\EndMenu.cs" />
     <Compile Include="Assets\FantomMusic\Demo\Scripts\SimpleMusicPlayer.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\handleUnpause.cs" />
     <Compile Include="Assets\Scripts\fallingPlatform.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\StartMenu.cs" />
     <Compile Include="Assets\Scripts\Finish.cs" />
     <Compile Include="Assets\Scripts\handlePause.cs" />
     <Compile Include="Assets\Scripts\Quit.cs" />
-    <Compile Include="Assets\Scripts\Restart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
