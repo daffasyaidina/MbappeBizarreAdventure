@@ -1,4 +1,4 @@
-# Mbappe Bizzare Adventure
+# Mbappe Bizarre Adventure
 
 ## Team Members
 
