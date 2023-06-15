@@ -2,7 +2,7 @@
 
 ## Team Members
 
-"Mbappe Bizzare Adventure" is developed by:
+"Mbappe Bizarre Adventure" is developed by:
 
 - Dafa Syaidina
 - Justin Theofilus
