@@ -11125,6 +11125,11 @@ Transform:
   m_Father: {fileID: 595202625}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &510391319 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1416185386160778704, guid: 24c76f379d95f894f88b4c4fdf812044, type: 3}
+  m_PrefabInstance: {fileID: 1416185384786659109}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &515340182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11315,8 +11320,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 108.73001, y: -35.199997}
-  m_SizeDelta: {x: 162.274, y: 30}
+  m_AnchoredPosition: {x: 119, y: -32.379}
+  m_SizeDelta: {x: 183.129, y: 56.0429}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &525830669
 MonoBehaviour:
@@ -11365,8 +11370,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -109208,6 +109213,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24c76f379d95f894f88b4c4fdf812044, type: 3}
+--- !u!114 &1416185384786659110 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1416185386160778717, guid: 24c76f379d95f894f88b4c4fdf812044, type: 3}
+  m_PrefabInstance: {fileID: 1416185384786659109}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510391319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1416185384786659113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510391319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 026fb917d458c5745a0abb484bac1771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kiwi: {fileID: 525830669}
+  KiwiText: {fileID: 1416185384786659110}
 --- !u!1001 &2169596775941660081
 PrefabInstance:
   m_ObjectHideFlags: 0
